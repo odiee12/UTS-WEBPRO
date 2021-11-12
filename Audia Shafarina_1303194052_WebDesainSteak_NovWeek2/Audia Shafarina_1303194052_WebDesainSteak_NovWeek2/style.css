@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+html, body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+#landing-page{
+	background-image: url("image/bgland2.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+	padding-right: 50px;
+}
+.landing-des .custom-des{
+	margin-top: 11.5em;
+	margin-left: 10em;
+}
+.landing-des .custom-des h2{
+	font-size: 65px;
+	color: #fff;
+	max-width: 350px;
+}
+.navbar a{
+	font-size: 30px;
+}
+.navbar-collapse .navbar-nav .nav-item a{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Bold', bold;
+}
+.navbar-collapse .navbar-nav .nav-item a:hover{
+	background-color: #ffc107;
+	color: #fff;
+}
+
+#about-menu{
+	background-image: url("image/about2.png");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+.about-title{
+	text-align: center;
+	padding-top: 10px;
+}
+.about-title h1{
+	font-family: "Caveat" !important;
+	font-size: 60px;
+	color: #fff;
+}
+.about-des .about-cust{
+	padding-top: 5em;
+	padding-left: 10em;
+}
+.about-des .about-cust p{
+	max-width: 350px;
+	font-size: 20px;
+	font-family: GothamRounded-Medium;
+}
+.about-des .about-cust li{
+	list-style: none;
+}
+
+#page-menu{
+	background-image: url("image/menu2.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	padding-bottom: 60px;
+}
+.menu-title{
+	text-align: center;
+}
+.menu-title h1{
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	font-size: 65px;
+	padding-bottom: 50px;
+}
+.list-menu{
+	display: flex;
+	justify-content: space-around;
+}
+.card-body{
+	text-align: center;
+}
+.card-title {
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+}
+.card-body .btn {
+	background-color: yellow;
+	border: none;
+	border-radius: 10px;
+}
+
+
+#chef-menu{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	margin-top: 120px;
+}
+.page-chef h1 {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-family: 'Caveat', cursive;
+	font-size: 70px;
+	color: #343a40;
+}
+#chef-menu .row {
+	margin: auto;
+}
+.page-chef .profile h2, h3{
+	font-family: GothamRounded-Medium;
+}
+.page-chef .profile h2 {
+	font-size: 25px;
+	color: black;
+}
+.page-chef .profile h3{
+	font-size: 17px;
+}
+.page-chef .profile p{
+	font-family: GothamRounded-Medium;
+}
+.img-box img{
+	padding-bottom: 15px;
+}
+
+#hour-menu{
+	background-image: url("image/hourr.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+}
+.hour-title{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.hour-title h1{
+	font-family: 'Caveat', cursive;
+	color: #000;
+	font-size: 50px;	
+}
+.row h2{
+	font-family: 'Caveat', cursive;
+	color: #000;
+	font-size: 50px;
+}
+.hour-oc  .hari-libur h2,
+.hour-oc  .hari-libur h4,
+.hour-oc  .hari-libur p
+{
+color: #fff;
+}
+.col-md-6 h4{
+	color: #000;
+	font-size: 30px;
+}
+.col-md-6 p{
+	color: #000;
+	font-size: 30px;
+}
+
+.row .col {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.col-lg-4 .card{
+	background-color: #343a40;
+}
+.form-group .btn{
+	background-color: #343a40;
+	border: none;
+	color: #fff;
+}
+.form-group .btn:hover{
+	background-color: #343a40;
+	border: none;
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 375px){
+	#landing-page{
+		background-image: url("image/bgland2.png");
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	#page-menu{
+		background-color: #663816;	 
+		width: 100%;
+		height: auto;
+	}
+	.menu-title{
+		padding-top: 50px !important;
+		padding-bottom: 10px !important;
+	}
+	.menu-title h1{
+		font-size: 70px!important;
+	}
+	.col-md-6{
+		margin-bottom: 5px;
+	}
+	.hour-title {
+		padding-top: 60px;
+	}
+	.col h1{
+		font-size: 25px;
+	}
+	.landing-des .custom-des{
+		margin-top: 20%!important;
+		margin-left: 0!important;
+		padding-bottom: 60px!important;
+	}
+	.landing-des .custom-des h2{
+		font-size: 60px!important;
+		color: #d1ceba!important;
+	}
+	.nav-menu .navbar a{
+		color: #000!important;
+		font-size: 30px!important;
+	}	
+	.navbar-collapse .navbar-nav {
+		margin-bottom: -50px!important;
+	}
+	.navbar-collapse .navbar-nav .nav-item a{
+		color: #000;
+		font-size: 15px!important;
+	}
+	.about-title h1{
+		color: #fff;
+		font-size: 50px!important;
+		padding-top: 15px!important;
+	}
+	.about-des .resto-text h3{
+		font-size: 35px!important;
+	}
+	.about-des .resto-text p{
+		font-size: 23px!important;
+	}
+	.about-des .resto-text .cper{
+		font-family: "Poppins" !important;
+	}
+	.text{
+		color: #ffa74a;
+	}
+	.navbar a{
+		font-size: 20px;
+	}
+	#chef-menu{
+		background: #eaeaea!important;
+		width: 100%;
+		height: auto;
+	}
+	.page-chef h1{
+		padding-bottom: 45px!important;
+		font-size: 70px;
+		color: #663816;
+	}
+	#hour-menu{
+		height: auto;
+		background-position: right;
+		background-color: #FEA116;
+	}
+	#hour-menu h1{
+		padding-bottom: 40px!important;
+	}
+	#about-menu{
+		background-image: url("image/about.png");
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-bottom: 70px;
+		text-align: center;
+	}
+	.about-des .about-cust{
+		padding-top: 4em!important;
+		padding-bottom: 4em!important;
+		padding-left: 0;
+	}
+	.about-des .about-cust li{
+		display: none;
+	}
+
+	#kritik-pesan{
+		background-color: #eaeaea;
+		width: 100%;
+		height: auto;
+		margin-bottom: -70px!important;
+	}
+	.kritik-title h1{
+		color: #663618;
+	}
+	.card-body h5, p{
+		color: #343a40;
+	}
+	.card-body{
+		background-color: #fff;
+	}
+	.saran-bodi h5{
+		font-size: 50px!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style-pembayaran.css">
+	<title>Form Pembayaran</title>
+</head>
+<body>
+	
+	 <div class="row">
+	  	<div class="col-75">
+	    	<div class="container">
+	      		<form action="/action_page.php">
+	        	<div class="row">
+	         		 <div class="col-50">
+	            		<h3>Tagihan layanan delivery</h3>
+	            		<label for="fname"><i class="fa fa-user"></i> Nama Lengkap</label>
+			            <input type="text" id="fname" name="firstname" placeholder="Audia Shafarina Justy">
+			            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+			            <input type="text" id="email" name="email" placeholder="ashafarina7@gmail.com">
+			            <label for="adr"><i class="fa fa-address-card-o"></i> Alamat</label>
+			            <input type="text" id="adr" name="address" placeholder="Jl. Anggrek no 8 Sukabirus">
+			            <label for="city"><i class="fa fa-institution"></i> Kota</label>
+			            <input type="text" id="city" name="city" placeholder="Bandung">
+
+	            <div class="row">
+	              	<div class="col-50">
+	                	<label for="state">Negara</label>
+	                	<input type="text" id="state" name="state" placeholder="Indonesia">
+	              	</div>
+	              	<div class="col-50">
+	                	<label for="zip">Kode Pos</label>
+	                	<input type="text" id="zip" name="zip" placeholder="15560">
+	              	</div>
+	            </div>
+	        </div>
+
+	          	<div class="col-50">
+	            	<h3>Pembayaran</h3>
+	            	<label for="fname">Hanya berlaku untuk kartu dibawah</label>
+	            	<div class="icon-container">
+	              		<i class="fa fa-cc-visa" style="color:navy;"></i>
+	              		<i class="fa fa-cc-discover" style="color:blue;"></i>
+	              		<i class="fa fa-cc-mastercard" style="color:orange;"></i>
+	              		<i class="fa fa-cc-paypal" style="color:blue;"></i>
+	            	</div>
+	            	<label for="cname">Nama yang tertera</label>
+	           	 	<input type="text" id="cname" name="cardname" placeholder="Audia Shafarina Justy">
+	            	<label for="ccnum">Nomer kartu kredit</label>
+	            	<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+	            	<label for="expmonth">Berlaku sampai bulan</label>
+	            	<input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+	            <div class="row">
+	              	<div class="col-50">
+	                	<label for="expyear">Berlaku sampai tahun</label>
+	                	<input type="text" id="expyear" name="expyear" placeholder="2025">
+	              	</div>
+	            </div>
+	        </div>
+
+	        </div>
+	        <label>
+	          	<input type="checkbox" checked="checked" name="sameadr"> Setuju syarat & ketentuan
+	        </label>
+	        <input type="submit" value="Pesan" class="btn">
+	      </form>
+	    </div>
+	</div>
+
+	  <div class="col-25">
+	    <div class="container">
+	      <h4>Keranjang
+	        <span class="price" style="color:black">
+	          <i class="fa fa-shopping-cart"></i>
+	          <b>1</b>
+	        </span>
+	      </h4>
+	      <p><a href="#">Beef Steak</a> <span class="price">Rp.130.000</span></p>
+	      <hr>
+	      <p>Total <span class="price" style="color:black"><b>Rp.130.000</b></span></p>
+	    </div>
+	</div>
+</div> 
+
+</body>
+</html>
